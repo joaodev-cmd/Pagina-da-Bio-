@@ -1,0 +1,92 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #F2EEE9; /* Off White */
+  color: #1A1A1A; /* Chumbo */
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+/* Container da bio */
+.bio-container {
+  width: 100%;
+  max-width: 420px;
+  background: white;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+/* Topo com imagem de perfil */
+.profile-section {
+  background: #f3edec; /* Azul */
+  padding: 30px 20px 20px;
+  text-align: center;
+  color: white;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #F2EEE9;
+  margin-bottom: 15px;
+}
+
+.profile-name {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.profile-title {
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+/* Seção de links e imagens */
+.links-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 25px 20px 35px;
+  background-color: #F2EEE9;
+}
+
+.links-section img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+
+.links-section img:hover {
+  transform: scale(1.02);
+}
+
+/* Botão card */
+.link-card {
+  display: block;
+  background: #D96319; /* Laranja */
+  color: white;
+  text-align: center;
+  padding: 18px 20px;
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  box-shadow: 0 6px 14px rgba(217, 99, 25, 0.3);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.link-card:hover {
+  background: #bf4e10;
+  transform: translateY(-2px);
+}
